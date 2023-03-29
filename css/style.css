@@ -1,0 +1,39 @@
+body{
+    font-family: montserat;
+}
+.contenaire{
+ width: 1000px;
+ margin: 0px auto;
+}
+.navigateur{
+    background-color: #0f2243;
+    color: white;
+}
+.contenaire .image{
+    width: 100px;
+    margin-right: 6px;
+}
+.navigateur .contenaire a {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navigateur .contenaire{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    
+}
+.menu-item{
+    display: inline;
+    padding-right: 8px;
+    
+}
+.navigateur .contenaire .menu .active{
+    text-decoration: underline;
+    
+}
